@@ -42,7 +42,7 @@ me understand how data, applications, and user-facing products come together.
 ## Tech Stack
 
 ### Data Analytics
-```
+
 | Technology | Skills |
 |||
 | **Microsoft Excel** | PivotTables, XLOOKUP, INDEX-MATCH, SUMIFS, COUNTIFS, Data Cleaning, Conditional Formatting, Dashboarding |
@@ -53,7 +53,6 @@ me understand how data, applications, and user-facing products come together.
 | **Power BI** | Dashboards, KPI Tracking, Data Visualization |
 | **DAX** | Measures and Analytical Calculations |
 | **Generative AI** | AI-assisted analysis, productivity, research and workflow enhancement |
-```
 
 ### Development
 
