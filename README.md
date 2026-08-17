@@ -44,7 +44,7 @@ me understand how data, applications, and user-facing products come together.
 ### Data Analytics
 
 | Technology | Skills |
-|||
+|---|---|
 | **Microsoft Excel** | PivotTables, XLOOKUP, INDEX-MATCH, SUMIFS, COUNTIFS, Data Cleaning, Conditional Formatting, Dashboarding |
 | **SQL** | Joins, Aggregations, Filtering, Grouping, Data Extraction, Reporting Queries |
 | **Python** | Data Analysis, Data Cleaning, Automation |
