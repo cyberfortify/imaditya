@@ -283,7 +283,7 @@ a {
   font-size: 1.2rem;
   font-weight: 300;
   color: var(--text-secondary);
-  line-height: 1.8;
+  line-height: 1.5;
   max-width: 440px;
   margin-bottom: 2.5rem;
   opacity: 0;
@@ -1512,7 +1512,7 @@ a {
   .hero-visual {
     order: 2;
     min-height: 50vh;
-    padding: 3rem 2rem;
+    padding: 2rem 0;
   }
 
   .skills-grid {
@@ -1523,6 +1523,9 @@ a {
   .about-grid {
     grid-template-columns: 200px 1fr;
     gap: 2.5rem;
+  }
+  .about-text h3{
+    line-height: 1.2;
   }
 
   .contact-grid {
@@ -1575,6 +1578,21 @@ a {
     padding: 7rem 1.5rem 3rem;
   }
 
+  .hero-tagline {
+    font-size: 1.1rem;
+  }
+  .hero-actions {
+    flex-direction: row; 
+  }
+
+  .btn-primary {
+    padding: 1rem 1.2rem;
+  }
+
+  .code-body {
+    padding: 10px;
+  }
+
   .about-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -1586,7 +1604,14 @@ a {
 
   .about-stats {
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.2rem;
+    gap: 1rem;
+  }
+  .about-text h3{
+    line-height: 1.2;
+  }
+
+  .tech-icon {
+    display: block;
   }
 
   .projects-grid {
@@ -1613,6 +1638,10 @@ a {
 
   .project-card:nth-child(4) {
     grid-column: auto;
+  }
+
+  .experience-section .section-label {
+    justify-content: start;
   }
 
   /* Timeline collapse to single column */
@@ -1645,11 +1674,13 @@ a {
   }
 
   .hero-actions {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
   }
 
   .stat-number {
     font-size: 1.6rem;
+  }
+  .about-text h3{
+    line-height: 1.2;
   }
 }
